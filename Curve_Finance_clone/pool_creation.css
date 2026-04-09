@@ -1,0 +1,396 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.logo img{
+    height: 10vh;
+    padding-top:2vh;
+    padding-left:2vh;
+}
+
+.logo p{
+    padding-left: 10px;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.heading{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:rgba(240, 248, 255, 0.658);
+}
+
+
+.heading ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.heading ul:first-child{
+     padding-left: 10px;
+     
+}
+
+.heading li{
+    padding: 10px 0;
+    font-size:medium;
+    font-weight: 500;
+    
+}
+
+.heading li:hover{
+    color: white;
+}
+
+.heading ul li:first-child{
+    background-color: rgb(0, 0, 255);
+    height: 40px;
+    width: 70px;
+    padding: 10px 0; 
+    color: wheat;
+}
+
+.right{
+   display: flex;
+   height: 14vh;
+   padding-top: 13px;
+   padding-right: 10px;
+}
+
+.profile{
+    height: 6vh;
+    padding-right: 10px;
+}
+
+.dirxn{
+    padding-right: 10px;
+    height: 5vh;
+}
+
+select{
+    background-color: black;
+    color:rgb(0, 0, 255);
+    border: none;
+    margin-right: 10px;
+}
+
+#dropdown{
+    width:1vw;
+    height: 5vh;
+}
+
+.connect{
+    color:white;
+    background-color: rgb(0, 0, 255);
+    border: none;
+    height: 40px;
+    font-weight: 700;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.connect:hover{
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(47, 44, 44);
+   
+}
+
+.nav-left{
+    display: flex;
+    margin: 5px;
+}
+
+.nav-left button{
+    text-align: center;
+    justify-content: center;
+     font-size: medium;
+}
+
+.option{
+    border:none;
+    background-color: rgb(47, 44, 44);
+    color:rgba(240, 248, 255, 0.658);
+    font-weight: 500;
+    height: 32px;
+    width:140px;
+}
+
+.option a{
+  color: white;
+}
+
+.option1{
+    background-color: rgb(47, 44, 44);
+    color:white;
+    font-weight: 600;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+    justify-content: center;
+    height: 32px;
+    width: 70px;
+}
+
+.option3{
+      border-top: 2px solid blue;
+      
+}
+
+.option1:hover{
+    background-color: rgb(107, 98, 98);
+}
+
+.option2:hover{
+     background-color: rgb(107, 98, 98);
+     border-top: 2px solid #eee;
+}
+
+
+.navRight{
+      color:rgba(240, 248, 255, 0.658);
+      font-weight: 600;     
+}
+
+span{
+      color:white;
+      font-weight: 600;     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: black;
+}
+
+.curve-content {
+    background: #131310;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.66);
+    text-align: center;
+    padding: 60px 40px;
+    position: relative;
+}
+
+.curve-logo {
+    width: 110px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.desc {
+    color: #fafafa;
+    font-size: 1.2rem;
+    margin-bottom: 35px;
+}
+
+.connect-btn {
+    background-color: #3174FF;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    padding: 16px 42px;
+    cursor: pointer;
+    box-shadow: 0 2px 6px rgba(49,116,255,0.18);
+}
+
+.connect-btn:hover {
+    background-color: #245ac7;
+}
+
+/* Grid Background Effect - Thoda advanced CSS hai */
+.curve-content::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 270px;
+    background: radial-gradient(circle at center, rgba(255,255,255,0.11) 0%, rgba(19,19,16,0.00) 70%);
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    border-radius: 100%;
+    pointer-events: none;
+}
+
+.curve-content > * {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.curve-footer {
+  background: #2a2622;
+  color: #e1e7ff;
+  padding: 32px 0 18px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 35px;
+  font-family: 'Arial', sans-serif;
+  border-top: 6px solid #181715;
+}
+.footer-col {
+  flex: 1 1 150px;
+  max-width: 280px;
+  margin: 0 12px;
+}
+.logo-col {
+  max-width: 320px;
+}
+.footer-logo {
+  height: 44px;
+  margin-bottom: 16px;
+}
+.footer-title {
+  font-size: 2.1rem;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: 1px;
+}
+.footer-desc {
+  font-size: 1.0rem;
+  color: #cfcfcf;
+  line-height: 1.5em;
+  margin-bottom: 0;
+}
+.footer-section-title {
+  font-size: 1.09em;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.footer-list li {
+  color: #7ec1fc;
+  font-size: 1.04em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  cursor: pointer;
+  transition: color 0.14s;
+}
+.footer-list li i {
+  font-size: 1.13em;
+}
+.footer-list li:hover {
+  color: #fff;
+}
+.footer-llama {
+    margin-top: -200px;
+    text-align: right;
+}
+
+
+
+
+
+
+  /* Responsive Media Queries */
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    .heading ul {
+      flex-direction: column;
+      gap: 10px;
+    }
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px 0;
+    }
+    .nav-left {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .footer-col {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .curve-footer {
+      gap: 20px;
+    }
+  }
