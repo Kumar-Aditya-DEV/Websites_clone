@@ -8,11 +8,17 @@ This repository contains multiple frontend clone projects built to practice UI d
 
 ### 🔹 Captain Fresh Clone
 - Frontend UI clone of Captain Fresh website  
-- Focused on layout, responsiveness, and design  
+- Focused on layout, responsiveness, and design
+<br><br>
+<img width="1919" height="981" alt="image" src="https://github.com/user-attachments/assets/33a2d6e5-5f7b-4b68-9707-f023e063aa13" />
+
 
 ### 🔹 Curve Finance Clone
 - UI clone of Curve Finance website  
-- Clean design and structured layout  
+- Clean design and structured layout
+<br><br>
+<img width="1918" height="976" alt="image" src="https://github.com/user-attachments/assets/30dfad72-1a0d-43b9-97bf-05ad8020255d" />
+
 
 ---
 
